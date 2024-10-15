@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://astro-frieren-blog-kit.netlify.app/sitemap-index.xml

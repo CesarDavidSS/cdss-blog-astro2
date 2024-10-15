@@ -1,0 +1,23 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="en">
+  <BaseHead />
+  <body
+    class="flex
+    min-h-screen
+    flex-col
+    bg-stone-100
+    font-mono
+    text-gray-950
+    dark:bg-gray-900
+    dark:text-white"
+  >
+    <Navbar />
+    <slot />
+    <Footer />
+  </body>
+</html>

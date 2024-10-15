@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import Features from "../components/Features.astro";
+import Contact from "../components/Contact.astro";
+
+import LatestPosts from "../components/LatestPosts.astro";
+import { sortPostsByDate } from "../utils/data.util";
+
+const allPosts = await Astro.glob("./posts/*.md");
+allPosts.sort(sortPostsByDate);
+const latestPosts = allPosts.slice(0, 3);
+---
+
+<BaseLayout>
+  <Hero />
+  <Features />
+  <LatestPosts posts={latestPosts} />
+  <Contact />
+</BaseLayout>
