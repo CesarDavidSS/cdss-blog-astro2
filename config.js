@@ -1,3 +1,3 @@
-export const SITE_TITLE = "Astro Frieren Blog Kit";
+export const SITE_TITLE = "César David Sánchez Saldaña";
 export const SITE_DESCRIPTION =
-  "Starterkit to build Frieren-themed blog with Astro";
+  "Mi Blog César David Sánchez Saldaña";

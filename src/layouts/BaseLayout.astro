@@ -1,10 +1,11 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
+import NavSocial from "../components/NavSocial.astro";
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 ---
 
-<html lang="en">
+<html lang="es">
   <BaseHead />
   <body
     class="flex
@@ -16,6 +17,7 @@ import Footer from "../components/Footer.astro";
     dark:bg-gray-900
     dark:text-white"
   >
+    <NavSocial />
     <Navbar />
     <slot />
     <Footer />

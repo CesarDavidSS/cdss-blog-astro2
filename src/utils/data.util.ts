@@ -8,7 +8,7 @@ export const formatDate = (pubDate: string) => {
     day: "numeric",
   };
 
-  return new Date(pubDate).toLocaleDateString("en-US", options);
+  return new Date(pubDate).toLocaleDateString("es-ES", options);
 };
 
 export const sortPostsByDate = (

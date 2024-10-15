@@ -10,9 +10,9 @@ const { post } = Astro.props;
 
 <a href={post.url}>
   <div
-    class="my-4 rounded-2xl bg-gray-100 border-4 border-purple-500 text-sm
-  hover:bg-gray-300 hover:border-purple-600
-  dark:bg-gray-600 dark:border-purple-500 dark:hover:border-purple-300"
+    class="my-4 rounded-2xl bg-gray-100 border-4 border-sky-500 text-sm
+  hover:bg-gray-300 hover:border-sky-600
+  dark:bg-gray-600 dark:border-sky-500 dark:hover:border-sky-300"
   >
     <div
       class="flex h-full w-full
@@ -34,7 +34,7 @@ const { post } = Astro.props;
         <Tags tags={post.frontmatter.tags} />
         <p class="line-clamp-6 pt-4">{post.frontmatter.excerpt}</p>
       </div>
-      <p class="pt-4 underline">read more →</p>
+      <p class="pt-4 underline">leer mas →</p>
     </div>
   </div>
 </a>
